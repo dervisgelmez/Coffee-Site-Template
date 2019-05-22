@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lorem ipsum.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/style/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/style/animate.css">
+	<link rel="stylesheet" href="assets/style/main.css">
+	<script src="assets/script/jquery.min.js"></script>
+	<script src="assets/script/bootstrap.min.js"></script>
+	<script src="assets/script/main.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<!-- Menü -->
+		<div class="row sticky-top navrow">
+			<nav class="navbar bg-white navbar-expand-lg w-100">
+				<a href="index.html" class="navbar-brand px-4">Logo</a>
+
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarControl" aria-controls="navbarControl" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></button>
+
+			 	<div class="collapse navbar-collapse" id="navbarControl">
+			    	<ul class="navbar-nav navbarrow">
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="menuControl" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+					        <div class="dropdown-menu" aria-labelledby="menuControl">
+					          <a class="dropdown-item" href="coffee.html">Coffee</a>
+					          <a class="dropdown-item" href="coffee.html">Coffee</a>
+					          <a class="dropdown-item" href="coffee.html">Coffee</a>
+					          <a class="dropdown-item" href="coffee.html">Coffee</a>
+					          <a class="dropdown-item" href="coffee.html">Coffee</a>
+					          <a class="dropdown-item" href="coffee.html">Coffee</a>
+					        </div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="coffee2.html">Pages 2</a></li>
+						<li class="nav-item"><a class="nav-link" href="pages.html">Menu</a></li>
+						<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+						<li class="nav-item"><a class="nav-link" href="card.html">Card</a></li>
+						<li class="nav-item"><a class="nav-link" href="#stores">Stores</a></li>
+						<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+			   		</ul>
+			  	</div>
+			</nav>
+		</div>
+
+		
+		<div class="container pl-0 pr-0 pl-sm-0 pl-md-5 pl-xl-5 pr-sm-0 pr-md-5 pr-xl-5">
+			<h1 class="p-4 text-right text-muted" style="font-family: 'Roboto';">Jobs</h1>
+			<div class="row pl-0 pr-0 pl-sm-0 pl-md-5 pl-xl-5 pr-sm-0 pr-md-5 pr-xl-5">
+				<div class="col-md-12 pl-0 pr-0 pl-sm-0 pl-md-5 pl-xl-5 pr-sm-0 pr-md-5 pr-xl-5">
+					<form class="needs-validation  pl-4 pr-4 pl-sm-4 pl-md-5 pl-xl-5 pr-sm-4 pr-md-5 pr-xl-5 jobsForm" novalidate="">
+						<div class="row">
+							<div class="col-md-6 mb-3">
+								<label for="firstName">Name</label>
+								<input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+								<div class="invalid-feedback">
+									Valid first name is required.
+								</div>
+							</div>
+						
+							<div class="col-md-6 mb-3">
+								<label for="lastName">Surname</label>
+								<input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+								<div class="invalid-feedback">
+									Valid last name is required.
+								</div>
+							</div>
+						</div>
+
+						<div class="mb-3">
+							<label for="email">Email <span class="text-muted">(Lorem ipsum dolor sit amet.)</span></label>
+							<input type="email" class="form-control" id="email" placeholder="you@example.com">
+							<div class="invalid-feedback">
+								Please enter a valid email address for shipping updates.
+							</div>
+						</div>
+
+						<div class="mb-3">
+							<label for="address">Address</label>
+							<input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+							<div class="invalid-feedback">
+								Please enter your shipping address.
+							</div>
+						</div>
+
+						<div class="mb-3">
+							<label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+							<input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+						</div>
+
+						<div class="row">
+							<div class="col-md-5 mb-3">
+								<label for="country">Lorem ipsum dolor sit amet.</label>
+								<select class="custom-select d-block w-100" id="country" required="">
+									<option value="">Choose...</option>
+									<option>United States</option>
+								</select>
+								<div class="invalid-feedback">
+									Please select a valid country.
+								</div>
+							</div>
+
+							<div class="col-md-4 mb-3">
+								<label for="state">Lorem ipsum dolor sit amet.</label>
+								<select class="custom-select d-block w-100" id="state" required="">
+									<option value="">Choose...</option>
+									<option>California</option>
+								</select>
+								<div class="invalid-feedback">
+									Please provide a valid state.
+								</div>
+							</div>
+
+							<div class="col-md-3 mb-3">
+								<label for="">Sex</label>
+								<div class="custom-control custom-checkbox">
+									<input type="radio" name="sex" class="custom-control-input" id="same-address">
+									<label class="custom-control-label" for="same-address">Erkek</label>
+								</div>
+
+								<div class="custom-control custom-checkbox">
+									<input type="radio" name="sex" class="custom-control-input" id="save-info">
+									<label class="custom-control-label" for="save-info">Kadın</label>
+								</div>
+							</div>
+						</div>
+
+						<hr class="mb-4">
+						<div class="mb-4">
+							<label for="lastName">Lorem ipsum dolor sit.</label>
+							<textarea class="form-control"></textarea>
+						</div>
+
+						<hr class="mb-4">
+						<div class="mb-4">
+							<label for="lastName">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</label>
+							<textarea class="form-control"></textarea>
+						</div>
+						
+						<hr class="mb-4">
+		
+						<button class="btn btn-primary btn-lg btn-block" type="submit">Accept</button>
+					</form>
+				</div>
+			</div>	
+       </div>
+
+
+
+
+		
+		
+
+		<div id="stores" class="p-3"></div>
+		<div class="row p-3 p-md-5 p-sm-3">
+			<div class="col-md-12">
+				<h3 style="padding: 10px 0;">Lorem ipsum.</h3>
+			</div>
+			<div class="row w-100 p-1 m-0">
+				<div class="col-md-4 p-4 mt-4 mt-md-0 mt-sm-4 mt-lg-0">
+					<div class="row pt-4 pb-4" style="background: #fff;box-shadow: 0 0 25px -10px #222;border-radius: 10px 10px 0 0;">
+						<div class="col-md-12 text-dark"><h5>Istanbul</h5></div>
+						<div class="col-md-12" style="color:#333">Cami Mh., Balıkçılar Sk. U Blok No:20 D:U/226, 34940 Tuzla/İstanbul</div>
+						<div class="col-md-12 pt-4" style="color:#777">İletişim : 0(216) 560 18 18</div>
+					</div>
+
+					<div class="row p-0" style="background:#fff;border-radius:0 0 10px 10px;overflow: hidden;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.5035625396686!2d29.31377001507647!3d40.81690167932063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caddd0b2006e8b%3A0x6513544ab3296475!2sViaport+Marina!5e0!3m2!1str!2str!4v1557909646101!5m2!1str!2str" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+				</div>
+
+
+				<div class="col-md-4 p-4 mt-4 mt-md-0 mt-sm-4 mt-lg-0">
+					<div class="row pt-4 pb-4" style="background: #fff;box-shadow: 0 0 25px -10px #222;border-radius: 10px 10px 0 0;">
+						<div class="col-md-12 text-dark"><h5>Samsun</h5></div>
+						<div class="col-md-12" style="color:#333">Denizevleri Mahallesi, Atatürk Blv. No:154, 55200 Atakum/Samsun</div>
+						<div class="col-md-12 pt-4" style="color:#777">İletişim : 0(362) 560 18 18</div>
+					</div>
+
+					<div class="row p-0" style="background:#fff;border-radius:0 0 10px 10px;overflow: hidden;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.7485306235667!2d36.271180415095124!3d41.33608127926893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x408879903f2d9131%3A0x84f10bb7f51f3d19!2sAVM!5e0!3m2!1str!2str!4v1557909560222!5m2!1str!2str" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+				</div>
+
+
+				<div class="col-md-4 p-4 mt-4 mt-md-0 mt-sm-4 mt-lg-0">
+					<div class="row pt-4 pb-4" style="background: #fff;box-shadow: 0 0 25px -10px #222;border-radius: 10px 10px 0 0;">
+						<div class="col-md-12 text-dark"><h5>Erzincan</h5></div>
+						<div class="col-md-12" style="color:#333">Düzce Üniversitesi Konuralp Yerleşkesi Konuralp Merkez/Düzce</div>
+						<div class="col-md-12 pt-4" style="color:#777">İletişim : 0(380) 560 18 18</div>
+					</div>
+
+					<div class="row p-0" style="background:#fff;border-radius:0 0 10px 10px;overflow: hidden;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.4490421431974!2d31.1555434150772!3d40.84006397931818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409d755a48679f75%3A0xaf730064cc646916!2sOrta+Cafe!5e0!3m2!1str!2str!4v1557909746760!5m2!1str!2str" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<div id="contact"></div>
+		<!-- Footer -->
+		<div class="row" style="background-color: #111;">
+			<div class="container-fluid pl-5 pr-5 pt-5 pb-4">
+				<div class="row">
+					<div class="col-md-3 footer">
+						<h5>lorem ipsum dolor.</h5>
+						<hr class="lineFtr">
+						<ol class="siteMap">
+							<li><a href="aboutus.html">About us</a></li>
+							<li><a href="teams.html">Teams</a></li>
+							<li><a href="jobs.html">Jobs</a></li>
+							<li><a href="card.html">Card</a></li>
+							<li><a href="privacy.html">Privacy</a></li>
+						</ol>
+					</div>
+					<div class="col-md-3 footer">
+						<h5>lorem ipsum dolor sit amet.</h5>
+						<hr class="lineFtr">
+						<div class="row footer">
+							<div class="col-md-6"><p class="mb-2">date - date :</p></div>
+							<div class="col-md-6"><p class="mb-2">11:00 - 23:00</p></div>
+							<div class="col-md-6"><p class="mb-2">date - date :</p></div>
+							<div class="col-md-6"><p class="mb-2">09:00 - 02:00</p></div>
+							<div class="col-md-6"><p class="mb-2">date :</p></div>
+							<div class="col-md-6"><p class="mb-2">09:00 - 17:00</p></div>
+						</div>
+					</div>
+					<div class="col-md-3 footer">
+						<h5>contact</h5>
+						<hr class="lineFtr">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. 81/34
+							<br>
+							<a href="mailto:support@support.com">support@support.com</a>
+						</p>
+					</div>
+					<div class="col-md-3 col-sm-12 footer">
+						<h5>follow</h5>
+						<hr class="lineFtr">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<div class="col-md-12 followUs">
+							<div class="row">
+							<form action="">
+								<div class="row w-100 p-3 p-md-3 p-sm-3">
+									<div class="col-9 col-md-9 col-sm-9 col-xs-9 p-0 m-0">
+										<div class="form-group">
+											<input class="form-control" type="text" style="border:0;border-radius: 5px 0 0 5px;" placeholder="example@example.com">
+										</div>
+									</div>
+									<div class="col-3 col-md-3 col-sm-3 col-xs-9 p-0 m-0">
+										<div class="form-group">
+											<button class="btn btn-warning text-dark" class="form-control" style="border-radius: 0 5px 5px 0;">Submit</button>
+										</div>
+									</div>
+								</div>
+							</form></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 text-center">
+					<ol class="socialmedia">
+						<li><a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+						<li><a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+					</ol>
+				</div>
+			</div>
+
+			<div class="container-fluid p-3" style="background: #000;">
+				<p class="text-center m-0 text-light">All right reserved ©2019.</p> 
+				<p class="text-center m-0" style="font-size: 14px;"><a href="https://www.github.com/dervisgelmez" style="color:#555;" target="_blank">dervisgelmez</a></p>
+			</div>
+		</div>
+	</div>
+
+
+
+<a class="backtotop">&uarr;</a>
+
+</body>
+</html>
